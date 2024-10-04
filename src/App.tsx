@@ -2,22 +2,17 @@ import Color from "./Color"
 
 
 function App() {
-  
+  let li = []
 
-  return (
+  for (let i = 0; i < 100; i++) {
+    li.push(i);
+    
+  }
+
+return (
     
 <div className="maingrid">
-<Color/>
-<Color/>
-<Color/>
-
-<Color/>
-<Color/>
-<Color/>
-
-<Color/>
-<Color/>
-<Color/>
+{li.map(idx => <Color key={idx}/>)}
 
 </div>
 
