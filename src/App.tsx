@@ -1,5 +1,5 @@
 import Color from "./Color"
-
+import Modal from "./Modal";
 
 function App() {
   let li = []
@@ -10,13 +10,15 @@ function App() {
   }
 
 return (
-    
+  
+    <>
+    <Modal />
 <div className="maingrid">
 {li.map(idx => <Color key={idx}/>)}
 
 </div>
 
-      
+</>
     
   )
 }
