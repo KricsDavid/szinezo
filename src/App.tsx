@@ -5,8 +5,12 @@ function App() {
   
 
   return (
-    <>
+    
 <div className="maingrid">
+<Color/>
+<Color/>
+<Color/>
+
 <Color/>
 <Color/>
 <Color/>
@@ -17,8 +21,8 @@ function App() {
 
 </div>
 
-      <Color/>
-    </>
+      
+    
   )
 }
 
