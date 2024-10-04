@@ -6,7 +6,7 @@ const Modal = () => {
   return (
     <>
     {isOpen? 
-    <div className='modal'>Modal nyitva</div>:
+    <div className='modal'><button onClick={toggle}>bezár</button></div>:
     <button onClick={toggle}>kinyit</button>
     
     }
